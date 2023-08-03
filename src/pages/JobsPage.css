@@ -1,0 +1,26 @@
+.jobs-page{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 5%;
+    padding-bottom: 2rem;
+  
+}
+
+.jobs{
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );
+    gap: 2rem;
+}
+
+@media screen and (min-width: 32.5rem) {
+
+    .jobs-page{
+        padding: 0 10%;
+        padding-bottom: 2rem;
+  
+    }
+    
+}
